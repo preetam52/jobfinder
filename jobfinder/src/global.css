@@ -1,0 +1,82 @@
+.container {
+    margin: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 600px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.flex-col {
+    flex-direction: column;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.mb-1 {
+    margin-bottom: 1em;
+}
+
+.mb-2 {
+    margin-bottom: 2em;
+}
+
+.mr-1 {
+    margin-right: 1em !important;
+}
+
+.m-1 {
+    margin: .5em !important;
+}
+
+.MuiInputBase-root {
+    width: 250px !important;
+}
+.MuiStepIcon-root.MuiStepIcon-completed {
+    color: #2c84c4 !important;
+}
+
+.MuiStepIcon-root.MuiStepIcon-active {
+    color: #2c84c4 !important;
+}
+
+.MuiButton-containedPrimary {
+    background-color: #2c84c4 !important;
+}
+
+
+@media (max-width: 603px) {
+    .inp-label {
+        width: 264px !important;
+    }
+}
+
+.inp-label {
+    width: 532px;
+}
+
+.submit {
+    display: flex;
+    justify-content: flex-end;
+}
+.MuiStep-horizontal {
+    padding: 8px !important;
+}
+
+@media (max-width: 603px) {
+    .MuiStepper-horizontal {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+    }
+}
+

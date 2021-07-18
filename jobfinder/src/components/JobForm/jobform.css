@@ -1,0 +1,58 @@
+.logo {
+    height: 50px;
+}
+
+/* .formContainer button {
+    width: 40% !important;
+} */
+
+@media (max-width: 603px) {
+    .mobileView {
+        flex-direction: column !important;
+        align-items: center;
+    }
+
+    
+}
+
+.file-inp {
+    /* display: none; */
+}
+
+.file-upload {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height: 228px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.uploadlogo {
+    font-size: 70px !important;
+}
+
+
+#upload-photo {
+    opacity: 0;
+    position: absolute;
+    z-index: -1;
+ }
+
+ .selfie {
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    height: 120px;
+    width: 120px;
+    position: relative;
+}
+
+.selfie-uploadlogo {
+    position: absolute;
+    bottom: -9px;
+    right: 0;
+    font-size: 38px !important;
+}
